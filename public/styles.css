@@ -1,0 +1,350 @@
+
+body{
+  margin:0;
+  font-family:arial;
+  font-weight:bold;
+  background-color:#AAAFFF;
+  height: auto;
+  position: relative;
+   }
+
+ #header {
+  
+  text-align: center; 
+  padding: 15px 0 0 0;
+  background: transparent;	 	 
+ }
+ #header img{
+  width: 918px;
+  height: 100px;
+  background: #BBBFFF(transparent url(../images/.jpg) no-repeat);
+  }
+  
+ #navigation{ 
+  width: 920px;
+  height: 60px;
+  text-align: center; 
+  margin: 0 auto;
+  background: #123456;
+ 
+  } 
+
+#navigation ul {
+  padding-bottom:5px;
+  padding-top:10px;
+  margin:5px;
+    }
+
+#navigation ul li {
+      float: left;
+      list-style-type: none;
+      margin-left: 6%;
+      display: inline-block;
+	  position: relative;
+	  height: 40px;
+	  margin-top:5px;
+    }
+  
+#navigation ul li a {
+      text-decoration: none;
+      color:#fff;
+      font-weight: bold;
+      font-size: 16px;
+      
+	  
+    }
+    #navigation ul li a:hover
+    { 
+      color: white;
+      text-decoration: none;
+      border: 10px solid orange;
+      background-color:orange;
+	  
+    }	
+	
+	
+	
+
+ #site_content{  
+    width: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 0px 10px 20px;
+    background: #FFFDDD ;
+    border-top: 5px solid;
+	border-image: linear-gradient(to right, green 0%, green 33%, yellow 33%, yellow 66%, red 66%, red 100%);
+		border-image-slice: 1;
+	} 
+
+.login_container{
+    float: left;
+	width: 230px;
+	height: auto;
+	margin:0px 20px 20px 0px;
+	padding: 0px 10px 10px 0px;
+	color: #787878;
+	border: 1px solid #E7DFD7;
+	border-radius: 10px;
+    background:#F8F8F8;
+	}
+.login
+{ font: normal 100% Arial, Helvetica, sans-serif;
+  padding: 0 15px 10px 10px;
+  width: 100%;
+  }	
+.login h2
+{ padding: 8px 0 0 10px;
+  height: 40px;
+  color: #FFF;
+  background: #123456;}  
+
+input[type=text]{
+  width:80%;
+  border-radius:4px;
+  padding:6px;
+  }
+input[type=password]{
+  width:80%;
+  border-radius:4px;
+  padding:6px;
+  
+  }
+input[type=submit]{
+  height:40px;
+  margin:15px 10px;
+  width:100px;
+  background-color:#123456;
+  border-radius:10px;
+  color:white;
+  font-size:15px;
+ 
+  }	
+
+.content_item
+{ width: 870px;
+  margin-top: 20px;
+  
+  }
+  
+.content_image
+{ float: left; 
+  width: 170px;}
+
+#content_item{
+	margin-left:20%;
+	font-size:15px;
+	text-align:justify;
+	margin-right:20px;
+}
+
+	
+	
+	
+	
+	
+	
+	/*slide show*/
+ul.slideshow {
+  list-style: none;
+  width: 880px;
+  height: 250px;
+  overflow: lighter;
+  position: relative;
+  margin: 0;
+  padding-top: 20px;}
+  
+ul.slideshow li {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;}
+ 
+ul.slideshow li.show {
+  z-index: 500;}
+ 
+ul img {
+  border: none;}
+ 
+#slideshow-caption {
+  width: 880px;
+  height: 38px;
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  z-index: 500;}
+ 
+#slideshow-caption .slideshow-caption-container {
+  padding: 10px 25px 10px 25px; 
+  background: transparent url(../images/transparent.png) repeat;  
+  z-index: 1000;}
+ 
+ 
+ 
+ 
+ 
+ 
+ /* eps_notification css*/
+#site_content h2{
+		margin-left:20px;
+	}
+	#site_content .read{
+		border:8px solid gray;
+	    text-align: center;
+		padding:5px;
+		 
+	}
+	#site_content .read a{
+		text-decoration: none;
+		color: blue;
+	}
+#site_content .notification-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+#site_content .notification-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#site_content .notification-icon img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+#site_content .notification-content h3 {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 14px;
+  
+}
+
+.no-decoration{
+	text-decoration: none;
+}
+
+#site_content .notification-content p {
+  margin: 0;
+  padding: 0;
+  color: #777;
+  font-size: 12px;
+}
+    /* eps_notification css*/
+ #navigation h5{ 
+  text-align: center; 
+  color:red;
+  } 
+  
+  
+  /* school css*/
+  .sub-menus {
+      display: none;
+	  position: relative;
+	  left: 0;
+      background-color: #123456;
+      height:200px;
+      width: 100%;
+	  
+    }
+    
+    li:hover .sub-menus {
+      display: block;
+	  margin-top: 10px;
+	 
+    }
+	.sub-menus li {
+	  margin-top:10px;
+    }
+	/* school approve css*/
+	#site_content1{  
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 0px 10px 20px;
+    background: #FFFDDD ;
+    border-top: 5px solid;
+	border-image: linear-gradient(to right, green 0%, green 33%, yellow 33%, yellow 66%, red 66%, red 100%);
+		border-image-slice: 1;
+	} 
+	
+	/*head of schools*/
+  
+   #navigation a {
+      text-decoration: none;
+      color:blue;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    #navigation a:hover
+    { 
+      color: white;
+      text-decoration: none;
+      border: 10px solid orange;
+      background-color:orange;
+	  
+    }
+	/* school_approve_*/
+	#navigation1{ candidate
+      width: 100%;
+      height: 60px;
+      text-align: center; 
+      margin: 0 auto;
+      background: #123456;
+	  
+    } 
+	#navigation1 a {
+      text-decoration: none;
+      color:blue;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    #navigation1 a:hover
+    { 
+      color: white;
+      text-decoration: none;
+      border: 10px solid orange;
+      background-color:orange;
+	  
+    }
+	#site_content1{  
+    width: 100%;
+	height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 0px 0px 0px;
+    background: #FFFDDD ;
+    border-top: 5px solid;
+	border-image: linear-gradient(to right, green 0%, green 33%, yellow 33%, yellow 66%, red 66%, red 100%);
+	border-image-slice: 1;
+	z-index: 99;
+	} 
+	
+	/* feedback css*/
+
+#feedback input[type=text]{
+  width:20%;
+  border-radius:10px;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+  
+ #feedback input[type=email]{
+  width:30%;
+  border-radius:10px;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+ #feedback input[type=submit]{
+  width:20%;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;

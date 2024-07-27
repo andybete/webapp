@@ -1,0 +1,290 @@
+body{
+  margin:0;
+  font-family:arial;
+  font-weight:bold;
+  background-color:#AAAFFF;
+  height: auto;
+  position: relative;
+   }
+#header {
+  
+  text-align: center; 
+  padding: 15px 0 0 0;
+  background: transparent;	 	 
+ }
+#header img{
+  width: 918px;
+  height: 100px;
+  background: #BBBFFF(transparent url(../images/.jpg) no-repeat);
+  }
+  
+  #navigation{ 
+  width: 920px;
+  height: 55px;
+  margin: 0 auto;
+  background: #123456;
+  } 
+ #navigation ul {
+  padding-bottom:5px;
+  padding-top:10px;
+  margin:2px;
+   }
+   
+ #navigation ul li {
+  float:left;
+  list-style-type:none;
+  height:40px;
+  margin-left:6%;
+   }
+ #navigation ul li a{
+      text-decoration: none;
+      color:white;
+      font-size: 16px;
+    }
+ #navigation ul li a:hover {
+	color: blue;
+    text-decoration: none;
+    border: 10px solid orange;
+    background-color:orange;
+    }
+	
+.sub-menus {
+      display: none;
+	  position: relative;
+	  left: 0;
+      background-color: #123456;
+      height:100px;
+      width: 100%;
+	  
+    }
+    
+    li:hover .sub-menus {
+      display: block;
+	  margin-top: 10px;
+	 
+    }
+	.sub-menus li {
+	  margin-top:10px;
+    }
+	
+	
+	
+	/* body part of candidate*/
+#site_content{  
+    width: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 0px 10px 20px;
+    background: #FFFDDD ;
+    border-top: 5px solid;
+	border-image: linear-gradient(to right, green 0%, green 33%, yellow 33%, yellow 66%, red 66%, red 100%);
+		border-image-slice: 1;
+	} 	
+	
+	.container{
+		float:left;
+	    
+	}
+	.container h3{
+		color: blue;gold;
+		margin: 40px 0 20px 10px;
+		font-size:25px;
+	}
+	.container h2{
+		color: black;
+		margin:40px 0 0 15px;
+		
+	}
+	.container h1{
+		margin:40px 0 0 0px;
+	}
+	.downward-icon {
+        
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid black;
+        display: inline-block;
+        vertical-align: middle;
+    }
+	.container .list {
+       margin: 20px 0 0 120px;
+    }
+	.container .list a{
+	  color: white;
+      text-decoration: none;
+      border: 12px solid gold;
+      background-color:gold;
+	  border-radius:20px;
+	  
+	}
+	.container .list a:hover{
+		border: 12px solid blue;
+		background-color:blue;
+	}
+	
+	
+	#cont_list{
+		border: 1px solid f4f5ff;
+		border-radius:10px;
+		background-color:#123456;#f4f5ff;
+		float:right;
+		height: 60%;
+		width:50%;
+		margin:60px 10px 0 0;
+		padding-left:20px;
+		 
+	}
+	#cont_list h2{
+		color:gold;
+		font-size:30px;
+		margin:10px 40px;
+	}
+	#cont_list h3{
+		color:white;
+	}
+	#cont_list p{
+		color:white;
+		margin:20px;
+	}
+	
+	
+	
+	/* change password*/
+	#passwordFormContainer{
+	float:right;
+	height: 350px;
+	width:40%;
+	margin:20px 20px 0 0;
+	color: #787878;
+	border: 1px solid #E7DFD7;
+	border-radius: 10px;
+    background:#F8F8F8;
+	}
+.form_container
+    { 
+  font: normal 100% Arial, Helvetica, sans-serif;
+  padding: 0 15px 80px 0px;
+  width: 100%;
+  }
+  .form_container h4
+   { 
+  padding: 8px 0 0 10px;
+  height: 40px;
+  color: #FFF;
+  background: #123456;
+  font-size:20px;
+  text-align:center;
+  }  
+  input[type=password]{
+  width:50%;
+  border-radius:10px;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+.submit-button {
+	    background-color: #4CAF50;
+	    color: white;
+		margin:20px 50px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 16px;
+		}
+	.submit-button:hover {
+        background-color: red;
+    }
+	
+	
+	
+	/* header of candidates exacept home page*/
+	#navigations{ 
+       width: 920px;
+       height: 55px;
+       margin: 0 auto;
+       background: #123456;
+	   padding-top:15px;
+	   text-align: center; 
+       } 
+	#navigations ul li {
+        list-style-type:none;
+        display: inline;
+       }
+   #navigations a {
+      text-decoration: none;
+      color:blue;
+      font-weight: bold;
+      font-size: 20px;
+      
+	  
+    }
+    #navigations a:hover
+    { 
+      color: white;
+      text-decoration: none;
+      border: 10px solid orange;
+      background-color:orange;
+	  
+    }
+	
+	/* take exam */
+	#ques-count{
+		display: flex;
+        justify-content: space-between;
+	}
+	display-info{
+		flex-basis: 50%; /* Adjust the width as needed */
+	}
+	.question-counter {
+        display: flex;
+        flex-wrap: wrap;
+		float:right;
+        justify-content: right;
+		flex-basis: 50%; /* Adjust the width as needed */	
+    }
+
+    .circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #ccc;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+	.break {
+    flex-basis: 100%;
+    height: 0;
+    }
+	#timer {
+		float:left;
+	     border: 2px solid;
+		 margin: 30`px 20px;
+		 padding:10px;
+	}
+	.display-info{
+	height: 200px;
+	width:35%;
+	margin:20px 20px 0 0;
+	padding:20px;
+	color: #787878;
+	border: 1px solid #E7DFD7;
+	border-radius: 10px;
+    background:#F8F8F8;
+	}
+	.question td{
+		font-size:20px;
+	}
+	.question input[type=radio]{
+  border-radius:10px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+  .button{
+	  margin-left:20px;
+  }

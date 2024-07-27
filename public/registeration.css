@@ -1,0 +1,115 @@
+html{
+	margin:0px;
+	padding:0px;
+}
+#register{
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 0px 20px 20px;
+    background: #FFFDDD ;
+	overflow: auto;
+	height: auto;
+	
+	
+}
+#register fieldset{
+	    margin:20px 0px 0px 50px;
+        border: 1px solid;
+		width:680px;
+		background-color:f4f5ff;
+		font-size:13px;
+  }
+  #current_date{
+	  float:right;
+  }
+
+.register_item{
+	margin:20px 0px 0px 20px;
+}
+.register_item input[type=password]{
+  width:20%;
+  border-radius:10px;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+ #eye {
+        position: absolute;
+        margin: 20px 0 20px 115px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+#eye2 {
+        position: absolute;
+        margin: 20px 0 20px 115px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+.register_item input[type=text]{
+  width:20%;
+  border-radius:10px;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+  .register_item input[type=radio]{
+  border-radius:10px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+  .register_item input[type=tel]{
+  width:20%;
+  border-radius:10px;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+ .register_item input[type=email]{
+  width:20%;
+  border-radius:10px;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+ .register_item input[type=number]{
+  width:20%;
+  border-radius:10px;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+  .register_item input[type=date]{
+  width:20%;
+  border-radius:10px;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  margin:5px;
+  }
+  .register_item input[type=submit]{
+  width:20%;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  }
+  .register_item input[type=reset]{
+  height:40px;
+  margin:15px 10px;
+  background-color:#123456;
+  border-radius:10px;
+  color:white;
+  font-size:15px;
+  padding:6px;
+  border: 1px solid #E7DFD7;
+  box-shadow: 0px 0px 1px 1px;
+  width:20%;
+  }
+  
+ 
